@@ -1,0 +1,164 @@
+/* global */
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    align-items: center;
+}
+
+.flex-left{
+    align-items: left;
+}
+
+.flex-right{
+    align-items:  right;
+}
+
+.flex-justify{
+    text-align: justify;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-col{
+    flex-direction: column !important;
+}
+
+.flex-jc-center{
+    justify-content: center;
+}
+
+.flex-jc-sa{
+    justify-content: space-around;
+}
+
+.flex-jc-se{
+    justify-content: space-evenly;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+
+
+.canvas{
+    height: auto;
+    width: 98vw;
+}
+
+@font-face {
+    font-family: kingthings;
+    src: url(../public/fonts/king.ttf);
+} 
+
+@font-face {
+    font-family: bethEllen;
+    src: url(../public/fonts/bethEllen.ttf);
+} 
+
+.fullwidth{
+    width: 100%;
+  }
+
+
+/* Accueil */
+#header{
+    height : 10vh;
+    width: 100%;
+    background-color: #6E4026;
+    font-family: 'kingthings';
+    font-size: x-large;
+    color: #B59A78;  
+}
+
+#environnement{
+    padding-top: 2%;
+    width: 100%;
+    background-color: #B59A78;
+    font-family: 'bethEllen';
+    font-size: x-large;
+    color: #6E4026;  
+}
+
+#QR{
+    background-color: #B59A78;
+    color: #6E4026; 
+    padding-top: 2%;
+    padding-bottom: 2%; 
+}
+
+#contacts{
+    color: #B59A78;
+    background-color: #6E4026; 
+    height: 10vh; 
+}
+
+.items{
+    width: 20%;
+    height: 100%;
+}
+
+/* Escape */
+
+#synopsisPhotoContainer{
+    height: 85%;
+    width: 100%;
+}
+#photoEnvironnement{
+    height: 100%;
+    width: 40%;
+    
+    
+}
+
+#synopsis{
+    height: inherit;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5%;
+}
+
+#titreEscape{
+    height: 15%;
+    font-size: 2em;
+    padding-bottom: 2%;
+}
+
+
+/* Questions réponses */
+
+.question{
+    margin-left:5%;
+    font-family: bethEllen;
+    font-size: 3.3vh;
+}
+
+.reponse{
+    margin-left:10%;
+    margin-right:10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: justify;
+    font-size: 2.3vh;
+}
+
+/* Contact */
+
+.contactText{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactImg{
+    font-weight: bold;
+    font-family: kingthings;
+}
+
