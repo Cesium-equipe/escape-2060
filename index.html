@@ -2,64 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>CESIUM Escape game</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CESIUM Escape game 2060</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
 <body>
-    <div class="flex flex-col flex-start fullwidth" id="accueil">
-        <div class="flex flex-jc-sa flex-center" id="header">
-            <div class="flex flex-col flex-center flex-jc-sa items">L'escape</div>
-            <div class="flex flex-col flex-center flex-jc-sa items">FAQ</div>
-            <div class="flex flex-col flex-center flex-jc-sa items">Contact</div>
-        </div>
-        <div class="flex flex-sa flex-center flex-col" id="environnement">
-            <div class="flex flex-col flex-center flex-jc-center" id="titreEscape">2060: Dernière chance</div>
-            <div class="flex flex-jc-se" id="synopsisPhotoContainer">
-                <div class="flex flex-col flex-justify flex-jc-center" id="synopsis">
-                    2060, la température moyenne est de plus en plus élevée, les catastrophes naturelles s’enchaînent avec une intensité toujours plus grande. Les écologistes sont emmenés au pouvoir comme dernier espoir et un programme d’urgence est immédiatement lancé pour sauver la planète. 
-                    <BR>Votre mission : explorer les souvenirs d’un biologiste afin de rassembler des connaissances perdues sur le rôle des animaux dans l’équilibre des écosystèmes.
+    <div class="content">
+        <div class="headerContainer">
+            <div class="logo">
+                <img src="./assets/public/images/Logo site 2060.svg">
+            </div>
+            <div class="headerComponent">
+                <div class="title">2060: Dernière chance</div>
+                <div class="subtitle">escape game</div>
+            </div>
             
+        </div>    
+        <div class="synopsisContainer container">
+            <div class="synopsis">
+                2060, la température moyenne est de plus en plus élevée, les catastrophes naturelles s’enchaînent avec une intensité toujours plus grande. Les écologistes sont emmenés au pouvoir comme dernier espoir et un programme d’urgence est immédiatement lancé pour sauver la planète. 
+                <BR><BR>Votre mission : explorer les souvenirs d’un biologiste afin de rassembler des connaissances perdues sur le rôle des animaux dans l’équilibre des écosystèmes.
+        
+            </div>
+        </div>
+        <div class="qrContainer container">
+            <div class="qrComponent">
+                <div class="question">Où pouvons nous jouer ?</div>
+                <div class="reponse">La salle est installée au Village de l'Ours Plume, à Bourgneuf (17220).
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11052.345578164462!2d-1.0203682!3d46.1689359!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48014b0597518b0b%3A0xa2c9c02c5a4f77a6!2sLe%20village%20de%20l&#39;ours%20plume!5e0!3m2!1sfr!2sfr!4v1747299536499!5m2!1sfr!2sfr" width="100%" height="300" style="padding-top:10px; border-radius:15px; border:transparent;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+            </div>
+
+            <div class="qrComponent">
+                <div class="question">Combien peut-il y avoir de joueurs par groupe ?</div>
+                <div class="reponse">Pour une expérience de jeu optimale, nous conseillons des groupes de 2 à 4 personnes.</div>
+            </div>
+            
+            <div class="qrComponent">
+                <div class="question">Quel est l'âge minimum pour s'inscrire ?</div>
+                <div class="reponse">La salle contient de nombreux écrits, nous la conseillons donc à partir de 10 ans. De plus, chaque groupe doit obligatoirement avoir au moins 1 adulte.</div>
+            </div>
+
+            <div class="qrComponent">
+                <div class="question">Comment peut-on réserver ?</div>
+                <div class="reponse">Au choix :
+                    <ul>
+                        <li>Directement à l'accueil de l'Ours Plume, les jours d'ouvertures.</li>
+                        <li>En nous contactant par mail à l'adresse equipe.cesium@gmail.com ou par téléphone au 0760423730 (SMS ou appel).</li>
+                    </ul>
+                    Vous recevrez sous 24h un mail de confirmation de réservation vous rappelant le créneau de jeu choisi et, si applicable, le montant à payer à votre arrivée.
                 </div>
             </div>
-        </div>    
-        <div id="QR" class="flex flex-col">
-            <div class="flex flex-col questionReponse">
-                <div class="question">Où pouvons nous jouer ?</div>
-                <div class="reponse">Au village de l'ours plume, vous trouverez tous les détails pour y accéder ici.</div>
+
+            <div class="qrComponent">
+                <div class="question">Quel est le prix pour un groupe ?</div>
+                <div class="reponse">Le prix de base est de 10 € par personne. Pour les adhérents à l'association Les amis de l'Ours Plume, le prix est de 5€ par personne.</div>
             </div>
             
-            <div class="flex flex-col questionReponse">
-                <div class="question">A partir de quel âge est-il possible de jouer ?</div>
-                <div class="reponse">Nous conseillons cet escape à partir de 10 ans. Cependant, cet escape répondant à un appel à projet, il a également un but didcatique et comporte donc de nombreux écrits à lire.</div>
+            <div class="qrComponent">
+                <div class="question">Quand pouvons nous jouer ?</div>
+                <div class="reponse">Sauf exception, nous proposons des créneaux sur les jours d'ouverture du Village de l'Ours Plume en Juin et Juillet. Plus d'informations sur les ouvertures du Village <a href="https://oursplume.com/index.php/horaires/" target="_blank">sur leur site internet</a>.</div>
             </div>
             
-            <div class="flex flex-col questionReponse">
-                <div class="question">Quand cet escape sera-t-il disponible ?</div>
-                <div class="reponse">Les jours en vert ci-dessous indiquent les jours d'ouverture de l'escape. Si vous n'êtes pas habitués du village de l'Ours Plume, nous vous conseillons vivement de nous contacter afin de réserver un créneau.</div>
-            </div>
-            
-            <div class="flex flex-col questionReponse">
+            <div class="qrComponent">
                 <div class="question">Combien de temps dure une partie ?</div>
-                <div class="reponse">Entre 45 minutes et une heure. L'idée est de vous laisser le temps d'explorer le scénario jusqu'au bout dans la mesure du possible.</div>
+                <div class="reponse">Comptez 45 à 60 minutes en fonction de votre niveau. Nous essayons dans la mesure du possible de vous aider pour que vous puissiez faire l'intégralité du scénario.</div>
             </div>
             
-            <div class="flex flex-col questionReponse">
-                <div class="question">C'est bien beau tout ça, mais combien ça coûte ?</div>
-                <div class="reponse">Le meilleur pour la fin ! C'est gratuit ! Toutefois, si vous n'êtes pas membres du village de l'Ours Plume, il vous faudra régler la somme de 1€ par personne afin d'accéder au lieu. De plus, puisque nous sommes en pleine création d'activité, nous laisserons un chapeau dans lequel vous pourrez donner le montant de votre choix si vous souhaitez nous soutenir dans notre projet !</div>
-            </div>
         </div>
-        <div id="contacts" class="flex flex-jc-se">
-            <div class="contactItem flex flex-center flex-jc-center">
-                <div class="contactImg">Mail : </div>
-                <div class="contactText">&nbsp;equipe.cesium&#64;gmail.com</div>
-            </div>
-            
-            <div class="contactItem flex flex-center flex-jc-center">
-                <div class="contactImg">Téléphone : </div>
-                <div class="contactText">&nbsp;07 60 42 37 30</div>
-            </div>
-            
+        <div class="contactContainer">
+            <div class="contactTitle">Nous contacter</div>
+            <div class="contactComponent">
+                <div class="contactItem">
+                    <img src="./assets/public/images/mail_24dp_EFE4D5_FILL0_wght400_GRAD0_opsz24.svg"> &nbsp;equipe.cesium&#64;gmail.com
+                </div>
+                <div class="contactItem">
+                    <img src="./assets/public/images/call_24dp_EFE4D5_FILL0_wght400_GRAD0_opsz24.svg"> &nbsp;07 60 42 37 30
+                </div>
+            </div> 
         </div>
     </div>
 
